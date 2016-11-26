@@ -42,12 +42,6 @@ class DefaultController extends Controller
     }
 
     public function getUserNames(){
-        $appTokenFlorian = "fAGSH3-rRGo:APA91bF2iZGhrsktWUJX8B14DQ6LfGoLXKEHSsg3CSv6qnaDg9T95ytn5Y_8Jq11fsCDTaMepI4KHUGLd_L5Sdld8Al5RZnCrmLDSuCFlgKD-FYqEwfpAf5erOX6YBt1X4Xrx-vBH_Pg";
-        // API access key from Google API's Console
-        define( 'API_ACCESS_KEY', 'AIzaSyC8lN0LUyTBI6gp-AxKkuyGBKTGIBIvtU8');
-
-        $this->sendGCM("das ist eine Testnachricht", $appTokenFlorian);
-
         $arr = array(
             array('Name' => "Nachricht 1"),
             array('Name' => "Nachricht 2"),

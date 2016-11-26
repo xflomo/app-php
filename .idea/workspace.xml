@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b72ab2-a2cf-4e83-9ba9-a06ee1a8c199" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/59/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722364656661756c74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/59/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722364656661756c74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/8b/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722361707052657175657374416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/8b/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722361707052657175657374416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/98/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223676574557365724e616d6573405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/98/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223676574557365724e616d6573405b416e6e6f745d5d5b315d.doctrinecache.data" />
@@ -34,8 +34,18 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+            <state relative-caret-position="266">
+              <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app_dev.php" pinned="false" current-in-tab="false">
+        <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/app-php/web/app_dev.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="296">
+              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -67,7 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/AppData/Local/Temp/scp33850/evergreen-kunstrasen.de/.htaccess" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp50440/evergreen-kunstrasen.de/typo3conf/ext/html_template/Configuration/TypoScript/Setup/setup-main.ts" />
         <option value="$PROJECT_DIR$/web/vendor/offlineJs/js/offline.min.js" />
         <option value="$PROJECT_DIR$/web/vendor/offlineJs/css/offline.css" />
@@ -115,9 +124,10 @@
         <option value="$PROJECT_DIR$/src/MainBundle/Controller/CalendarController.php" />
         <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/4b60458a-5bd2-413d-ae27-69f6842f498c/web/fileadmin/templates/inc/ts/setup-main.t3s" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/var/logs/prod.log" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/app-php/web/app_dev.php" />
+        <option value="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -346,12 +356,12 @@
       <workItem from="1479802160427" duration="3192000" />
       <workItem from="1479915254572" duration="734000" />
       <workItem from="1479970418439" duration="1875000" />
-      <workItem from="1480123477795" duration="3305000" />
+      <workItem from="1480123477795" duration="3529000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72738000" />
+    <option name="totallyTimeSpent" value="72962000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -411,7 +421,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Entity/User.php" />
     <entry file="file://$PROJECT_DIR$/src/MainBundle/Entity/KalenderEintrag.php" />
     <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/default/default.html.twig">
       <provider selected="true" editor-type-id="text-editor">
@@ -534,10 +543,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/app-php/web/app_dev.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="86" column="24" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
+        <state relative-caret-position="266">
+          <caret line="53" column="8" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
           <folding />
         </state>
       </provider>
