@@ -3,6 +3,7 @@
 namespace MainBundle\Controller;
 
 use MainBundle\Entity\Team;
+use MainBundle\Entity\Tokens;
 use MainBundle\Entity\UsersInTeams;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
@@ -33,6 +34,11 @@ class DefaultController extends Controller
                 case "getUsernames":
                     $this->getUserNames();
                     break;
+                case "addToken":
+                    if(isset($_POST["token"])){
+                        $this->addToken($_POST["token"]);
+                    }
+                    break;
             }
         }else{
             echo "no access";
@@ -54,20 +60,44 @@ class DefaultController extends Controller
         $this->send_notification();
     }
 
+    function addToken($tokenString){
+        $tokenrepository = $this->getDoctrine()
+            ->getRepository('MainBundle:Tokens');
+
+        $tokenData = $tokenrepository->findOneByToken($tokenString);
+
+        if($tokenData === null){
+            $now = new \DateTime('NOW');
+            $em = $this->getDoctrine()->getManager();
+            $token = new Tokens();
+            $token->setCreatetime($now);
+            $token->setToken($tokenString);
+            $token->setUserid(1);
+            $em->persist($token);
+            $em->flush();
+        }
+    }
 
     function send_notification ()
     {
-        $message = array("message" => " FCM PUSH NOTIFICATION TEST MESSAGE");
+        $tokenrepository = $this->getDoctrine()
+            ->getRepository('MainBundle:Tokens');
+        $tokens = array("dqC1sov7Uks:APA91bH_1bicJpavX_IidZU5XguH97hqD10y44n8bnQxvf_M8Q4CVNpBoZKvZEqjihEzKnr657Beb954mzuW_VA2Bc_gXC0sH-mM6oGH_wWOywAF7L-ktkYdVekVIQ1oXBLGWyIod7nL");
         $url = 'https://fcm.googleapis.com/fcm/send';
-        $tokens = array("fAGSH3-rRGo:APA91bF2iZGhrsktWUJX8B14DQ6LfGoLXKEHSsg3CSv6qnaDg9T95ytn5Y_8Jq11fsCDTaMepI4KHUGLd_L5Sdld8Al5RZnCrmLDSuCFlgKD-FYqEwfpAf5erOX6YBt1X4Xrx-vBH_Pg");
+        $notification= array('title' => 'Es klappt Jaaa','body' => 'jawolll jaman jaaa' );
+
         $fields = array(
             'registration_ids' => $tokens,
-            'data' => $message
+            'notification' => $notification
+
         );
+
+
         $headers = array(
-            'Authorization:key=' . "AAAArSWOoNw:APA91bFv_JaCkVtGrfBrwBMM0Tm1upexkEGrz8m4dbRa-0aGk_IsA52zWeApf4WdlXNfEnqmw4B-lf8njQSIMuFeo8kFLPv1iaB4uGSRpthpYDM-LK6-UKcYue8_YwjOSFbFVsZsyg0-V-2HIpotEHN5xm_PpUd1Ug",
+            'Authorization:key=AAAAZHnow2A:APA91bFEsglVuHSz_gtfowL14lR9-8W5rZFHJai2nHG6fC-ZHtnnOcIMc-pL0rddKc79NIvVD2v8MqsgOo9dkS2aGwwF73g_MMwYJOg1OOv0O4d8S0LvTieiWoH1D-GFsHlq3LPPIzHWvoZfToWIino6UuREOBRewg',
             'Content-Type: application/json'
         );
+
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL, $url);
         curl_setopt($ch, CURLOPT_POST, true);
@@ -76,11 +106,14 @@ class DefaultController extends Controller
         curl_setopt ($ch, CURLOPT_SSL_VERIFYHOST, 0);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($ch, CURLOPT_POSTFIELDS, json_encode($fields));
+        // echo json_encode($fields);
         $result = curl_exec($ch);
+        echo curl_error($ch);
         if ($result === FALSE) {
             die('Curl failed: ' . curl_error($ch));
         }
         curl_close($ch);
+        //echo $result;
     }
 
 
