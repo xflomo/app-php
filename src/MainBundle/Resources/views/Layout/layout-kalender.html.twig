@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{% block title %}A3PLUS - Projekttool{% endblock %}</title>
+
+    {% block stylesheets %}
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/bootstrap-material-design.css') }}">
+        <link rel="stylesheet" href="{{ asset('vendor/bootstrap/css/snackbarjs.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/fontawesome/css/font-awesome.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/bs-datetimepicker/css/bootstrap-material-datetimepicker.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/jquery-confirm/css/jquery-confirm.min.css') }}">
+		<link rel="stylesheet" href="{{ asset('vendor/offlineJs/css/offline.css') }}">
+		<link rel="stylesheet" href="{{ asset('css/styles.css') }}">
+    {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+
+<header class="head-nav">
+    <div class="container-fluid">
+        <div class="menu-button">
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+            <span class="btn-line"></span>
+        </div>
+        <div class="input-group">
+            <div class="form-group no-padding no-margin main-searchform">
+            <input type="text" id="mainSearchBox" placeholder="Suche nach Einträgen, Kunden, Jobs usw..." class="form-control" onkeyup="searchEntry(this.value)">
+            <span class="input-group-addon"><i class="material-icons">search</i></span>
+            </div>
+            <div class="searchresult-box">
+            </div>
+        </div>
+        <div class="menu-bar-top">
+            <div class="logedin-user-container">
+                <a href="/mitarbeiter/{{app.user.url}}/kalender/kw/{{ aktlKw }}" title="Mein Kalender">
+                    <img class="img-responsive" src="/images/mitarbeiter/{{app.user.getProfilthumb}}" >
+                    {{app.user.getFirstname}} {{app.user.getLastname}}
+                </a>
+            </div>
+            <div class="dropdown">
+                <i class="material-icons" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">more_vert</i>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="/uebersicht">Übersicht</a></li>
+                    <li><a href="/profil">Mein Profil</a></li>
+                    {% if app.request.get('_route') == 'uebersicht' %}
+                        {% if app.user.getAdmin == 1 %}
+                        <li>
+                            <a href="#" data-toggle="modal" data-target=".bs-example-modal">Neues Team erstellen</a>
+                        </li>
+                        {% endif %}
+                    {% endif %}
+                    {% if app.user.getAdmin == 1 %}
+                    <li role="separator" class="divider"></li>
+                    <li><a href="/kunden">Einstellungen</a></li>
+                    {% endif %}
+
+                    <li role="separator" class="divider"></li>
+                    <li><a href="/logout">Abmelden</a></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+    </div>
+</header>
+<div class="header-spacer-calender"></div>
+<div class="loading-overlay">
+    <div class="sk-fading-circle">
+        <div class="sk-circle1 sk-circle"></div>
+        <div class="sk-circle2 sk-circle"></div>
+        <div class="sk-circle3 sk-circle"></div>
+        <div class="sk-circle4 sk-circle"></div>
+        <div class="sk-circle5 sk-circle"></div>
+        <div class="sk-circle6 sk-circle"></div>
+        <div class="sk-circle7 sk-circle"></div>
+        <div class="sk-circle8 sk-circle"></div>
+        <div class="sk-circle9 sk-circle"></div>
+        <div class="sk-circle10 sk-circle"></div>
+        <div class="sk-circle11 sk-circle"></div>
+        <div class="sk-circle12 sk-circle"></div>
+    </div>
+</div>
+    {% block body %} {% endblock %}
+
+
+{% block javascripts %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="{{ asset('vendor/bootbox/js/bootbox.min.js') }}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/material.js') }}"></script>
+    <script src="{{ asset('vendor/pace/js/pace.min.js') }}"></script>
+    <script src="{{ asset('vendor/matchHeight/js/matchHeight.js') }}"></script>
+    <script src="{{ asset('vendor/bootstrap/js/snackbarjs.js') }}"></script>
+	<script src="{{ asset('vendor/jquery-confirm/js/jquery-confirm.min.js') }}"></script>
+	<script src="{{ asset('vendor/offlineJs/js/offline.min.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
+{% endblock %}
+</body>
+</html>
