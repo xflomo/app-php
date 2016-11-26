@@ -1,0 +1,101 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Symfony template
+# Cache and logs (Symfony2)
+/app/cache/*
+/app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
+
+# Email spool folder
+/app/spool/*
+
+# Cache, session files and logs (Symfony3)
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+!var/cache/.gitkeep
+!var/logs/.gitkeep
+!var/sessions/.gitkeep
+
+# Parameters
+/app/config/parameters.yml
+/app/config/parameters.ini
+
+# Managed by Composer
+/app/bootstrap.php.cache
+/var/bootstrap.php.cache
+/bin/*
+!bin/console
+!bin/symfony_requirements
+/vendor/
+
+# Assets and user uploads
+/web/bundles/
+/web/uploads/
+
+# Assets managed by Bower
+/web/assets/vendor/
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
+
+# Composer PHAR
+/composer.phar
+
+# Backup entities generated with doctrine:generate:entities command
+*/Entity/*~
+
+.gitignore
+src/MainBundle/Entity/
+src/MainBundle/Repository/
+src/MainBundle/Resources/config/doctrine/
+src/MainBundle/Service/
+var/cache/dev/annotations/05/
+var/cache/dev/annotations/27/
+var/cache/dev/annotations/54/
+var/cache/dev/annotations/8d/5b53796d666f6e795c42756e646c655c5477696742756e646c655c436f6e74726f6c6c65725c457863657074696f6e436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data
+var/cache/dev/doctrine/
+var/cache/dev/profiler/18/
+var/cache/dev/profiler/23/
+var/cache/dev/profiler/24/
+var/cache/dev/profiler/29/
+var/cache/dev/profiler/56/fc/
+var/cache/dev/profiler/59/
+var/cache/dev/profiler/5c/
+var/cache/dev/profiler/62/
+var/cache/dev/profiler/7f/
+var/cache/dev/profiler/92/
+var/cache/dev/profiler/98/
+var/cache/dev/profiler/9e/
+var/cache/dev/profiler/a3/6f/
+var/cache/dev/profiler/a4/
+var/cache/dev/profiler/bf/
+var/cache/dev/profiler/de/
+var/cache/dev/profiler/e7/
+var/cache/dev/profiler/f0/
+var/cache/dev/profiler/fa/
+var/cache/dev/twig/1a/
+var/cache/dev/twig/25/
+var/cache/dev/twig/65/
+var/cache/dev/twig/67/
+var/cache/dev/twig/77/
+var/cache/dev/twig/92/
+var/cache/dev/twig/9b/
+var/cache/dev/twig/9c/
+var/cache/dev/twig/bf/
+var/cache/dev/twig/e2/
+var/cache/dev/twig/e4/
+var/cache/pro_/annotations/
+var/cache/pro_/doctrine/
+var/cache/prod/doctrine/
+var/logs/dev.log
+vendor/doctrine/common/lib/vendor/
+vendor/doctrine/dbal/lib/vendor/
+vendor/doctrine/orm/docs/en/_theme/
+vendor/doctrine/orm/lib/vendor/
+web/css/
+web/js/
