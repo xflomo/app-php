@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14b72ab2-a2cf-4e83-9ba9-a06ee1a8c199" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Projekttool-symfony.iml" afterPath="$PROJECT_DIR$/.idea/Projekttool-symfony.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/parameters.yml" afterPath="$PROJECT_DIR$/app/config/parameters.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/59/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722364656661756c74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/59/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722364656661756c74416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/8b/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722361707052657175657374416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/8b/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722361707052657175657374416374696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/98/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223676574557365724e616d6573405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/98/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c657223676574557365724e616d6573405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/a7/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722373656e645f6e6f74696669636174696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/a7/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c65722373656e645f6e6f74696669636174696f6e405b416e6e6f745d5d5b315d.doctrinecache.data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/annotations/f7/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" afterPath="$PROJECT_DIR$/var/cache/dev/annotations/f7/5b5b435d4d61696e42756e646c655c436f6e74726f6c6c65725c44656661756c74436f6e74726f6c6c6572405b416e6e6f745d5d5b315d.doctrinecache.data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/sessions/dev/sess_584301339568486a35e53132c47c3ef3" afterPath="$PROJECT_DIR$/var/sessions/dev/sess_584301339568486a35e53132c47c3ef3" />
     </list>
     <ignored path="Projekttool-symfony.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,23 +33,9 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-              <folding>
-                <element signature="e#41#68#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TokenRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/MainBundle/Repository/TokenRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="34" />
-              <folding>
-                <element signature="e#6#87#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="120">
+              <caret line="32" column="42" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,9 +56,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/AppData/Local/Temp/scp44224/html/typo3/typo3conf/AdditionalConfiguration.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp37271/html/typo3/typo3conf/LocalConfiguration.php" />
-        <option value="$USER_HOME$/AppData/Local/Temp/scp00703/html/typo3/typo3conf/ext/template/Configuration/TypoScript/Setup/Bootstrap.ts" />
         <option value="$PROJECT_DIR$/src/MainBundle/Resources/views/ajaxTemplates/issueDetailContent.html.twig" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp38677/web/typo3conf/ext/template/Resources/Public/Scripts/extend.js" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp52921/web/typo3conf/ext/template/Configuration/TypoScript/Setup/Bootstrap.ts" />
@@ -127,6 +104,9 @@
         <option value="$PROJECT_DIR$/src/MainBundle/Entity/Tokens.php" />
         <option value="$PROJECT_DIR$/src/MainBundle/Repository/TokenRepository.php" />
         <option value="$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/ts/setup-main.t3s" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/js/ext-supersized.js" />
+        <option value="/private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/css/layout.css" />
       </list>
     </option>
   </component>
@@ -169,8 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -285,29 +263,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Projekttool-symfony" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,6 +301,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,19 +315,19 @@
     <property name="FullScreen" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\Projekttool-symfony\web\vendor\colorpanel\js" />
-      <recent name="C:\xampp\htdocs\Projekttool-symfony\web\vendor\colorpanel\css" />
-      <recent name="C:\xampp\htdocs\Projekttool-symfony\web" />
-      <recent name="C:\xampp\htdocs\Projekttool-symfony\src\MainBundle" />
-      <recent name="C:\xampp\htdocs\Projekttool-symfony\src\MainBundle\Service" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/MainBundle/Resources/views/Layout" />
       <recent name="C:\xampp\htdocs\Projekttool-symfony\web\css" />
       <recent name="C:\xampp\htdocs\Projekttool-symfony\src\MainBundle\Resources\views\ajaxTemplates" />
       <recent name="C:\xampp\htdocs\Projekttool-symfony\src\MainBundle\Resources\views\default" />
       <recent name="C:\xampp\htdocs\Projekttool-symfony\src\MainBundle\Repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\web\vendor\colorpanel\js" />
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\web\vendor\colorpanel\css" />
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\web" />
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\src\MainBundle" />
+      <recent name="C:\xampp\htdocs\Projekttool-symfony\src\MainBundle\Service" />
     </key>
   </component>
   <component name="RunManager">
@@ -464,11 +422,15 @@
       <workItem from="1479915254572" duration="734000" />
       <workItem from="1479970418439" duration="1875000" />
       <workItem from="1480123477795" duration="8799000" />
+      <workItem from="1480407694927" duration="7000" />
+      <workItem from="1480415041650" duration="2499000" />
+      <workItem from="1480427365258" duration="3000" />
+      <workItem from="1481274642378" duration="106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78232000" />
+    <option name="totallyTimeSpent" value="81327000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -484,23 +446,23 @@
     <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21101573" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22246066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940018" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32771084" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -528,10 +490,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/js/main.js" />
-    <entry file="file://$PROJECT_DIR$/web/css/styles-light.css" />
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Repository/CustomerRepository.php" />
-    <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/RequestController.php" />
     <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -570,27 +528,9 @@
     <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/99aa2cf0-5802-430a-abaa-15dfab28d764/web/typo3conf/ext/template/Resources/Public/Components/magiczoom/js/magiczoom.js" />
     <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/99aa2cf0-5802-430a-abaa-15dfab28d764/web/typo3conf/ext/template/Resources/Public/Styles/Styles.less" />
     <entry file="file:///Volumes/htdocs/projekte/venjakob-moebel/venjakob_typo3/fileadmin/templates/inc/js/googletracking.js" />
-    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/ts/setup-main.t3s">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="640" column="65" selection-start-line="640" selection-start-column="65" selection-end-line="640" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/js/googletracking.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/js/extend.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="158" column="46" selection-start-line="158" selection-start-column="44" selection-end-line="158" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/ts/setup-main.t3s" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/js/googletracking.js" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/6be6cb8d-a19d-43ec-a203-3cc3414fa701/melos-gmbh.com/fileadmin/templates/inc/js/extend.js" />
     <entry file="file://$PROJECT_DIR$/web/css/lightGallerySettings.css" />
     <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/CustomerController.php" />
     <entry file="file://$PROJECT_DIR$/src/MainBundle/Resources/views/customer/index.html.twig" />
@@ -603,7 +543,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -611,7 +550,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -624,7 +562,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-220">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,23 +569,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/app-php/src/MainBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="60" column="53" selection-start-line="60" selection-start-column="53" selection-end-line="60" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/3ba9a03f-265b-41a3-8eeb-644d30c10f7f/app-php/src/MainBundle/Controller/DefaultController.php" />
     <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,10 +584,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="23" column="28" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="28" />
-          <folding>
-            <marker date="1469705388000" expanded="true" signature="1099:1220" ph="Delete FROM " />
-            <marker date="1469705388000" expanded="true" signature="1411:1492" ph="Delete FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -667,7 +591,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-510">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -675,7 +598,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="92" column="10" selection-start-line="92" selection-start-column="7" selection-end-line="92" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -683,11 +605,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="48" selection-end-column="29" />
-          <folding>
-            <marker date="1479286886000" expanded="true" signature="3827:4022" ph="SELECT e FRO... MainBundle" />
-            <marker date="1479286886000" expanded="true" signature="4365:4485" ph="UPDATE MainB... " />
-            <marker date="1479286886000" expanded="true" signature="6100:6170" ph="Delete FROM " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -695,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -703,11 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-75">
           <caret line="132" column="53" selection-start-line="132" selection-start-column="12" selection-end-line="132" selection-end-column="53" />
-          <folding>
-            <marker date="1479286886000" expanded="true" signature="11426:11508" ph="SELECT * FRO... ro_client" />
-            <marker date="1479286886000" expanded="true" signature="11722:11933" ph="SELECT proje... ro_project" />
-            <marker date="1479286886000" expanded="true" signature="12149:12191" ph="SELECT * FRO... ro_client" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -715,9 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="35" selection-start-line="11" selection-start-column="8" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="e#40#102#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -725,19 +633,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="34" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="34" />
-          <folding>
-            <element signature="e#6#87#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/ts/setup-main.t3s" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/js/ext-supersized.js" />
+    <entry file="file:///private/var/folders/rl/1lkmn2rj0r74f5l83ddhhfr80000gp/T/b2fb6914-6d7d-4cbb-b36e-3e6232614b93/html/typo3/fileadmin/templates/maridur/css/layout.css" />
+    <entry file="file://$USER_HOME$/Desktop/VPN_Shrewsoft_Dennis_Letec_16_12_2015.pcf" />
     <entry file="file://$PROJECT_DIR$/src/MainBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="e#41#68#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="32" column="42" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="42" />
+          <folding />
         </state>
       </provider>
     </entry>
